@@ -1,6 +1,6 @@
 # CP7
 Portuguese zip codes with coordinates  
-_PT version_ Códigos Postais de Portugal, georreferenciados
+_Códigos Postais de Portugal, georreferenciados_
 
 * List of 9250 CP7 of Lisbon region, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosLisboa.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7LisboaGeorreferenciados_shapefile.rar)  
 * List of __198.000__ CP7 of Portugal cleaned, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosPortugal.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7PortugalGeorreferenciados_shapefile.rar)   > _This one is more up to date._
