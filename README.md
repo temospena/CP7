@@ -2,9 +2,9 @@
 Portuguese zip codes with coordinates  
 _Códigos Postais de Portugal, georreferenciados_
 
-* List of 9250 CP7 of Lisbon region, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosLisboa.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7LisboaGeorreferenciados_shapefile.rar)  
-* List of __198.000__ CP7 of Portugal cleaned, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosPortugal.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7PortugalGeorreferenciados_shapefile.rar)   > _This one is more up to date._
-* List of __316.129__ CP7, with all the adresses, but repeated CP7 [Rds file](https://github.com/temospena/CP7/blob/master/CP7_CTT_Portugal.Rds)
+* List of 9250 CP7 of Lisbon region, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7%20Lisbon/CP7georreferenciadosLisboa.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7%20Lisbon/CP7LisboaGeorreferenciados_shapefile.rar)  
+* List of __198.000__ CP7 of Portugal cleaned, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7%20Portugal/CP7georreferenciadosPortugal.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7%20Portugal/CP7PortugalGeorreferenciados_shapefile.rar)   > _This one is more up to date._
+* List of __316.129__ CP7, with all the adresses, but repeated CP7 [Rds file](https://github.com/temospena/CP7/blob/master/CP7%20Portugal/CP7_CTT_Portugal.Rds)
 
 ## About
 The portuguese CP (zip code) is made by a combination of 4 + 3 digits.  
@@ -18,7 +18,7 @@ a street or street segment (edge of a block), a point in the middle of that stre
 The coordinates of this point that can be extracted, giving a very approximate location of the actual address.  
 
 An aproximation of Lisbon's CP7 is this:
-![Voronoy with centroids](https://github.com/temospena/CP7/blob/master/VoronoyCP7lisboa.jpg)
+![Voronoy with centroids](https://github.com/temospena/CP7/blob/master/CP7%20Lisbon/VoronoyCP7lisboa.jpg)
 
 ## Sources
 This compilation was made by [Rosa Félix](https://fenix.tecnico.ulisboa.pt/homepage/ist155593/gis).
