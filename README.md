@@ -9,7 +9,7 @@ _PT version_ Códigos Postais de Portugal, georreferenciados
 ## About
 The portuguese CP (zip code) is made by a combination of 4 + 3 digits.  
 The first 4 digits have a correspondence of an area, normaly equivalent fo the old districts (Freguesias pré 2014), or districts together.
-For example, Arroios can be 1000, 1150 or 1170. The Parque das Nações and Moscavide can be 1990 or 1998 :smile:
+For example, Arroios can be 1000, 1150 or 1170. The Parque das Nações and Moscavide can be 1990 or 1998 :blush:
 
 ![Aproximation of CP4, for Lisbon](https://github.com/temospena/CP7/blob/master/CP4%20Lisbon/CP_Lisboa4_update.PNG)
 
@@ -26,5 +26,5 @@ The sources used were:
 *  The Comercial database for Lisbon 2009 [Geodados](http://geodados.cm-lisboa.pt/datasets/recenseamento-comercial-2009), with the atitmetic average of lat and long for each CP7
 *  A personal colection of insittutional CP7 - the ones that end with xx49, such as universities and companies
 *  List of all CP7, fom the CTT website [CTT - registeration required](https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles.jspx)
-*  SQL file from [github.com/cusco/ctt](https://github.com/cusco/ctt)
- 
+*  SQL file from [github.com/cusco/ctt](https://github.com/cusco/ctt) with lat/long computed :+1:
+
