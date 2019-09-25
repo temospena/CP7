@@ -2,14 +2,14 @@
 Portuguese zip codes with coordinates  
 _PT version_ Códigos Postais de Portugal, georreferenciados
 
-List of 9250 CP7 of Lisbon region, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosLisboa.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7LisboaGeorreferenciados_shapefile.rar)  
-List of __198.000__ CP7 of Portugal cleaned, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosPortugal.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7PortugalGeorreferenciados_shapefile.rar)   > _This one is more up to date._
-List of __316.129__ CP7, with all the adresses, but repeated CP7 [Rds file](https://github.com/temospena/CP7/blob/master/CP7_CTT_Portugal.Rds)
+* List of 9250 CP7 of Lisbon region, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosLisboa.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7LisboaGeorreferenciados_shapefile.rar)  
+* List of __198.000__ CP7 of Portugal cleaned, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7georreferenciadosPortugal.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7PortugalGeorreferenciados_shapefile.rar)   > _This one is more up to date._
+* List of __316.129__ CP7, with all the adresses, but repeated CP7 [Rds file](https://github.com/temospena/CP7/blob/master/CP7_CTT_Portugal.Rds)
 
 ## About
 The portuguese CP (zip code) is made by a combination of 4 + 3 digits.  
 The first 4 digits have a correspondence of an area, normaly equivalent fo the old districts (Freguesias pré 2014), or districts together.
-For example, Arroios can be 1000, 1150 or 1170. The Parque das Nações and Moscavide can be 1990 or 1998 :)
+For example, Arroios can be 1000, 1150 or 1170. The Parque das Nações and Moscavide can be 1990 or 1998 :smile:
 
 ![Aproximation of CP4, for Lisbon](https://github.com/temospena/CP7/blob/master/CP4%20Lisbon/CP_Lisboa4_update.PNG)
 
