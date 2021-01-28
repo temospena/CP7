@@ -39,4 +39,6 @@ CAOP2011 = rbind(CAOP2011continente, CAOP2011madeira, CAOP2011acores1, CAOP2011a
 st_write(CAOP2011[,c(1:3,5,8)], "CP7/CP4 Portugal/CAOP2011.geojson")
 saveRDS(CAOP2011[,c(1:3,5,8)], "CP7/CP4 Portugal/CAOP2011.Rds")
 
-#Disponibilizar no github CP7/CP4 Portugal
+#Disponibilizar no github CP7/CP4 Portugal - teve de ser em Rds, porque o geojson tinha mais de 100MB (155MB)
+
+rm(CAOP2011continente, CAOP2011madeira, CAOP2011acores1, CAOP2011acores2, CAOP2011acores3)
