@@ -42,3 +42,38 @@ saveRDS(CAOP2011[,c(1:3,5,8)], "CP7/CP4 Portugal/CAOP2011.Rds")
 #Disponibilizar no github CP7/CP4 Portugal - teve de ser em Rds, porque o geojson tinha mais de 100MB (155MB)
 
 rm(CAOP2011continente, CAOP2011madeira, CAOP2011acores1, CAOP2011acores2, CAOP2011acores3)
+
+
+
+
+#########################################################
+### tentativa com as sub-secões do INE
+###http://mapas.ine.pt/download/index2011.phtml
+
+#Ir ao site do INEe fazer download das áreas administrativas Continente, Madeira e Açores
+INEcontinente = st_read("D:/GIS/CAOP/2011/BGRI11_CONT.shp")
+INEmadeira = st_read("D:/GIS/CAOP/2011/BGRI11_MAD.shp")
+INEacores25 = st_read("D:/GIS/CAOP/2011/BGRI11_AC25.shp")
+INEacores26 = st_read("D:/GIS/CAOP/2011/BGRI11_AC26.shp")
+
+#uniformizar campos
+INEcontinente = INEcontinente %>% select(BGRI11, DTMN11, FR11, SEC11, SS11, LUG11, LUG11DESIG, geometry)
+INEmadeira = INEmadeira %>% select(dput(colnames(INEcontinente)))
+INEacores25 = INEacores25 %>% select(dput(colnames(INEcontinente)))
+INEacores26 = INEacores26 %>% select(dput(colnames(INEcontinente)))
+
+#Projectar tudo em WGS84
+INEcontinente = st_transform(INEcontinente, 4326)
+INEmadeira = st_transform(INEmadeira, 4326)
+INEacores25 = st_transform(INEacores25, 4326)
+INEacores26 = st_transform(INEacores26, 4326)
+
+#Unir num só ficheiro
+INEbgri = rbind(INEcontinente, INEmadeira, INEacores25, INEacores26)
+
+#Exportar em GeoJSON
+saveRDS(INEbgri, "CP7/CP4 Portugal/INEbgri2011.Rds") #não dará para colocar no github, tem >100MB
+
+
+rm(INEcontinente, INEmadeira, INEacores25, INEacores26)
+
