@@ -4,7 +4,8 @@ _Códigos Postais de Portugal, georreferenciados_
 
 * List of 9250 CP7 of Lisbon region, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7%20Lisbon/CP7georreferenciadosLisboa.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7%20Lisbon/CP7LisboaGeorreferenciados_shapefile.rar)  
 * List of __198.000__ CP7 of Portugal cleaned, with Latitude and Longitude. [txt file separated with tab](https://github.com/temospena/CP7/blob/master/CP7%20Portugal/CP7_CTT_PortugalNov2019.txt) || [shapefile](https://github.com/temospena/CP7/blob/master/CP7%20Portugal/CP7PortugalGeorreferenciados_shapefile.rar)   > _This one is more up to date._
-* List of __316.129__ CP7, with all the adresses, but repeated CP7 [Rds file](https://github.com/temospena/CP7/blob/master/CP7%20Portugal/CP7_CTT_Portugal.Rds)
+* List of __316.129__ CP7, with all the adresses, but repeated CP7 [Rds file](https://github.com/temospena/CP7/blob/master/CP7%20Portugal/CP7_CTT_Portugal.Rds) > _This os from the CTT list_
+* CP4 polygons of their cover areas, estimated by their districts, sections and statistic sub-sections, for the Continent and Archipelagos. [shapefile](https://github.com/temospena/CP7/blob/master/CP4%20Portugal) || [R script](https://github.com/temospena/CP7/blob/master/CP4%20Portugal/CP4_poligonos.R) to produce them
 
 ## About
 The portuguese CP (zip code) is made by a combination of 4 + 3 digits.  
