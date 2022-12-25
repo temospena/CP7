@@ -23,13 +23,13 @@ An aproximated influence area of Lisbon's CP7, using [Voronoi](https://en.wikipe
 
 The estimated CP4 areas for Portugal, matched with administrative areas, looks like this:
 ![Matched areas](https://github.com/temospena/CP7/blob/master/CP4%20Portugal/CP4_EstimativaPoligonos.PNG)  
-(_Altough some holes are pretty obvious, it would require some non-automatized process to fill them without redundance_)
+(_Although some holes are pretty obvious, it would require some non-automatized process to fill them without redundance_)
 
 ## Sources
 This compilation was made by [Rosa Félix](https://fenix.tecnico.ulisboa.pt/homepage/ist155593/gis).
 The sources used were:
-*  The Comercial database for Lisbon 2009 [Geodados](http://geodados.cm-lisboa.pt/datasets/recenseamento-comercial-2009), with the atitmetic average of lat and long for each CP7
-*  A personal colection of insittutional CP7 - the ones that end with xx49, such as universities and companies
+*  The commercial database for Lisbon 2009 [Geodados](http://geodados.cm-lisboa.pt/datasets/recenseamento-comercial-2009), with the atitmetic average of lat and long for each CP7
+*  A personal collection of institutional CP7 - the ones that end with xx49, such as universities and companies
 *  List of all CP7, fom the CTT website [CTT - registeration required](https://www.ctt.pt/feapl_2/app/restricted/postalCodeSearch/postalCodeDownloadFiles.jspx)
 *  SQL file from [github.com/cusco/ctt](https://github.com/cusco/ctt) with lat/long computed :+1:
 
