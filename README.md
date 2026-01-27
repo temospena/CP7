@@ -1,3 +1,8 @@
+**This repository will be archived!**
+Eurostat released all the CP7 for the EU-members, with coordinates. This is assumed to be an official data source.
+See here and dowload for free: https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/postal-codes
+
+
 # CP7
 Portuguese zip codes with coordinates  
 _Códigos Postais de Portugal, georreferenciados_
